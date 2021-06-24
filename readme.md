@@ -9,11 +9,11 @@
 ## Installation
 
 ```console
-# clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
+# clone the repository
+$ git clone https://github.com/PinaYTTT/Mlauncher.git
 
 # change the working directory to sherlock
-$ cd sherlock
+$ cd Mlauncher
 
 # install the requirements
 $ python3 -m pip install -r requirements.txt
