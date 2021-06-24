@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="UGH_menu.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ugh basic0000" x="5" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0001" x="5" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0002" x="5" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0003" x="223" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0004" x="223" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0005" x="223" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0006" x="441" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0007" x="441" y="5" width="208" height="109"/>
+	<SubTexture name="ugh basic0008" x="441" y="5" width="208" height="109"/>
+	<SubTexture name="ugh white0000" x="659" y="5" width="261" height="148"/>
+	<SubTexture name="ugh white0001" x="5" y="163" width="261" height="148"/>
+	<SubTexture name="ugh white0002" x="276" y="163" width="261" height="148"/>
+</TextureAtlas>
