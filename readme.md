@@ -21,7 +21,7 @@ $ python3 -m pip install -r requirements.txt
 
 ## Usage
 First download the proyect,
-Later open cmd and go to the folder where is the proyect and write
+Then open cmd and go to the folder where is the proyect and write
 ```
 pip install -r requirements.txt
 ```
