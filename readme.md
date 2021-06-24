@@ -5,7 +5,7 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing">Contributing</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Download>Download program</a>
+  <a href="#Download">Download program</a>
 </p>
 
 ## Download
