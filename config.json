@@ -11,7 +11,7 @@
   },
   {
    "optionDest": "onefile",
-   "value": true
+   "value": false
   },
   {
    "optionDest": "console",
@@ -19,7 +19,7 @@
   },
   {
    "optionDest": "icon_file",
-   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/icon.ico"
+   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.ico/icon.ico"
   },
   {
    "optionDest": "ascii",
@@ -59,11 +59,19 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/mods;mods/"
+   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.mods;.mods"
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/Assets;Assets/"
+   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.music;.music"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.ico;.ico"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.logo;.logo"
   }
  ],
  "nonPyinstallerOptions": {

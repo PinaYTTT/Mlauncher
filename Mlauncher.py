@@ -45,7 +45,7 @@ scrollbar = Scrollbar(ventana)
 c = Canvas(ventana,yscrollcommand=scrollbar.set)
 scrollbar.config(command = c.yview)
 scrollbar.pack(side=RIGHT,fill=Y)
-elframe = Frame(c)
+elframe = Frame(c,width="400")
 c.pack(side="left", fill="y", expand=True)
 c.create_window(0,0,window = elframe, anchor='nw')
 
@@ -77,8 +77,10 @@ fond = PhotoImage(file=".logo\\logo.png")
 lblFondo = Label(elframe, image=fond).place(x=350, y=0)
 title = Label(elframe, text="Mlauncher, Creado por PinaYT", font="Arial 15", bg="cyan", borderwidth=2, relief="groove").pack()
 espacio = Label(elframe, text="",font="Arial 2").pack()
-bton = Button(elframe, text="Abrir pagina del proyecto", font="arial 12", bg="cyan", borderwidth=2, relief="groove").pack()
-espacio = Label(elframe, text="",font="Arial 2", command= lambda: callback("https://github.com/PinaYTTT/Mlauncher")).pack()
+bton = Button(elframe, text="Abrir pagina del proyecto", font="arial 12", bg="cyan", borderwidth=2, relief="groove", command= lambda: callback("https://github.com/PinaYTTT/Mlauncher")).pack()
+espacio = Label(elframe, text="",font="Arial 2").pack()
+bton2 = Button(elframe, text="Como instalar mods?", font="arial 12", bg="cyan", borderwidth=2, relief="groove", command= lambda: ayuda()).pack()
+espacio = Label(elframe, text="",font="Arial 2").pack()                  
 
 # Carga de mods
 
@@ -96,7 +98,18 @@ def startMod(i):
     print(f".mods\\{i}")
     os.system(f'cd .mods\\{i} && start Game.exe')
 
+def ayuda():
+    window = Tk()
 
+    label1 = Label(window, text="Como instalar mods?", font="Helvetica 15").pack()
+    label2 = Label(window, text="Primero, presiona en la parte de abajo de este texto: 'Abrir carpeta de mods'. \nLuego busca la carpeta del mod que quieres instalar y entra,\n Renombra el archivo .exe del juego a Game.exe,\n Esto es muy importante, si no haces esto el mod no funcionara. \nLuego mueve la carpeta del mod a la carpeta de mods. \nMas informacion en mi tiktok @PinaYT").pack()
+    espacio2 = Label(window, text="", font="Helvetica 2").pack()
+    botond = Button(window, text="Abrir carpeta de mods", font="Arial 12", command=lambda:os.system("start .mods")).pack()
+    window.geometry("500x200")
+    window.title("Ayuda de instalacion de mods - MLauncher")
+    window.iconbitmap('.ico\\icon.ico')
+    window.resizable(False,False)
+    window.mainloop()
 # Arranque
 
 ventana.update()
