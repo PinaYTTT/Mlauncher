@@ -35,7 +35,7 @@ pip3 install pathlib
 pip3 install webbrowser
 ```
 
-Later you can edit the proyect, dont forge give me credits =D
+Then you can edit the proyect, dont forge give me credits =D
 
 ## Contributing
 Thanks to all the people who contributed to the project by giving like on tiktok, if you want to donate or follow me to help me, here I leave you:
