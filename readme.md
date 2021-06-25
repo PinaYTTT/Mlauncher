@@ -34,9 +34,6 @@ pip install -r requirements.txt
 You need Python 3.5
 if the command dont works, write this
 ```
-pip3 install tkinter
-pip3 install os
-pip3 install pygame
 pip3 install pathlib
 pip3 install webbrowser
 ```
