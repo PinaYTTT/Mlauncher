@@ -1,5 +1,2 @@
-tkinter
-os
-pygame
 pathlib
 webbrowser
