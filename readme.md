@@ -18,7 +18,7 @@ The official link of the program is: https://www.mediafire.com/file/ye4ia0k4jb7n
 # clone the repository
 $ git clone https://github.com/PinaYTTT/Mlauncher.git
 
-# change the working directory to sherlock
+# go to the program folder
 $ cd Mlauncher
 
 # install the requirements
