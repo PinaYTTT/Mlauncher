@@ -1,2 +1,0 @@
-pyinstaller --windowed --debug all --noconfirm --onedir  --icon "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.ico/icon.ico" --add-data "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.mods;.mods" --add-data "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.music;.music" --add-data "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.ico;.ico" --add-data "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/.logo;.logo"  "C:/Users/pinac/Desktop/Programacion/python/Fnf-launcher/Mlauncher.py"
-pause
